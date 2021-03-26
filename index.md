@@ -1,3 +1,3 @@
 # About me page:
-[About Me](./about.md)
-
+- [About Me](./about.md)
+- [My Projects](./projects.md)
