@@ -1,4 +1,4 @@
-![Kyle](./assets/images/kyle.jpg)
+![Kyle](./assets/images/kyle.png)
 
 # Quick Links:
 ## - [About Me](./about.md)
