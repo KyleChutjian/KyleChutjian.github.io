@@ -1,6 +1,7 @@
 name: Website
 title: Kyle Chutjian
 theme: jekyll-theme-slate
-description: ![Kyle](./assets/images/kyle.jpg)
+description: <img src="/assets/images/kyle.png" alt="Logo">
+
 plugins:
   - jemoji
