@@ -1,3 +1,3 @@
 # About me page:
-[Headings](./about.md)
+[About Me](./about.md)
 
