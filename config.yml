@@ -1,4 +1,5 @@
 name: Website
 title: null
+theme: jekyll-theme-slate
 plugins:
   - jemoji
