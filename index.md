@@ -1,3 +1,3 @@
 # Quick Links:
-##- [About Me](./about.md)
-##- [My Projects](./projects.md)
+## - [About Me](./about.md)
+## - [My Projects](./projects.md)
