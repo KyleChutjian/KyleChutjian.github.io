@@ -1,3 +1,3 @@
 # About me page:
-https://kylechutjian.github.io/about
+[Headings](./about.md)
 
