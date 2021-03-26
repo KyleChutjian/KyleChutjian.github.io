@@ -1,6 +1,5 @@
 name: Website
 title: Kyle Chutjian
-theme: jekyll-theme-minimal
-logo: assets/images/kyle.png
+theme: jekyll-theme-slate
 plugins:
   - jemoji
