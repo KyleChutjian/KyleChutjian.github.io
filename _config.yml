@@ -1,5 +1,6 @@
 name: Website
 title: Kyle Chutjian
 theme: jekyll-theme-slate
+description: Test test
 plugins:
   - jemoji
