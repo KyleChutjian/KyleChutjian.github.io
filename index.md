@@ -1,5 +1,5 @@
 
 
 # Quick Links:
-## - [Click Here to Learn About Me](./about.md)
-## - [Click here for a list of My Projects](./projects.md)
+## - [Click here to learn about me](./about.md)
+## - [Click here for a list of my projects](./projects.md)
