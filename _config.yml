@@ -1,6 +1,0 @@
-name: Website
-title: <img src="assets/images/kyle.png" alt="Logo">
-theme: jekyll-theme-slate
-
-plugins:
-  - jemoji
