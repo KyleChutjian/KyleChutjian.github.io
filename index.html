@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="websiteContainer" id="top">
@@ -64,18 +64,18 @@
                 <h1 class="header">About Me</h1>
             </div>
 
-                <div class="">
+                <div>
                     <div class="about-me-paragraph">
                         <p>
                             Hi, I'm Kyle! 
                             I'm an upcoming developer, currently studying at Quinnipiac University.
                             I'm a sophomore software engineering major, with a minor in Mathematics.
-                            While I'm currently based in the Paramus, NJ area, I'm also very familiar with Hamden, CT.
+                            While I'm currently based in the Montvale, NJ area, I'm also very familiar with Hamden, CT.
                         </p>
         
                         <p>
-                            Although Java is my bread and butter, I have experience with XML, JavaScript, HTML, CSS, and Scala. 
-                            I'm in the process of learning Python and Typescript.
+                            Although Java is my bread and butter, I have experience with XML, JavaScript, Python, HTML, CSS, and Scala. 
+                            I'm currently in the process of improving my SQL.
                         </p>
                         <p>
                             Coding is not my entire life, unfortunately.
@@ -84,10 +84,9 @@
                             My favorite team is the Brooklyn Nets.
                         </p>
                     </div>
-    
                 </div>
 
-                <div class="">
+                <div>
                     <img src="./images/me.jpg" class="me-image" alt="Me">
                 </div>
 
@@ -109,7 +108,7 @@
                     <div class="project-body">
                       <p class="project-description">
                         I made this website you are looking at. 
-                        Still optimizing and updating the responsiveness in my free time.
+                        Still optimizing the responsiveness in my free time.
                         A lot of Bootstrap is used for a responsive result, which I cannot take much
                         credit for, but HTML, CSS, and the rotating JavaScript text I wrote.
                       </p>
@@ -118,6 +117,7 @@
                       <span class="github-link">
                           <a href="https://github.com/KyleChutjian/KyleChutjian.github.io" target="_blank"><img src="./images/github.png"></a>
                       </span>
+                      
                     </div>
                   </div>
               </div>
@@ -148,32 +148,30 @@
                     </div>
                   </div>
               </div>
-
-              <!-- TicTacToe -->
+              <!-- Brooklyn Nets Face Recognizer -->
               <div class="col-lg-4 single-project-container">
-                  <div class="single-project">
-                    <div class="top-container">
-                      <h5 class="project-title">5x5 TicTacToe</h5>
-                      <hr class="hr-project-top">
-                      <p class="project-type">Java | XML | Android</p>
-                    </div>
-                    <div class="project-body">
-                      <p class="project-description">
-                        This is a 5x5 TicTacToe project. It is a fun project that is mainly Java logic. 
-                        The win condition is if the player or opponent scores 4 in a row, which increases their respective score and restarts the board.
-                      </p>
-                    </div>
-                    <div class="project-bottom">
-                      <span class="github-link">
-                          <a href="https://github.com/KyleChutjian/TicTacToeProject" target="_blank"><img src="./images/github.png"></a>
-                      </span>
-                      <span class="youtube-link">
-                          <a href="https://www.youtube.com/watch?v=zDFaiSekId0&ab_channel=Kyle%2C" target="_blank"><img src="./images/youtube.png"></a>
-                      </span>
-                    </div>
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">Brooklyn Nets Face Recognizer</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Python | OpenCV</p>
                   </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      Since I am an avid Brooklyn Nets fan, I wanted to create a program related to the team.
+                      This program uses a webcam to take a picture of your face, and return an image showing which player you most resemble.
+                      The README describes how to use the program.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/BrooklynNets-FaceRecognizer" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
+
 
             <div class="row">
 
@@ -187,9 +185,9 @@
                     </div>
                     <div class="project-body">
                       <p class="project-description">
-                        Worked with a group of four students where we made many enhancements to a pre-existing Java Swing program.
-                        During this process, we went through five scrum sprint cycles, documentation is available upon request.
-                        The game is a 2D-platformer with 15 levels where the player can collect coins, adventure through custom maps, and follow a story.
+                        Worked with a group of four students where we made numerous enhancements to a pre-existing Java Swing program.
+                        During this process, we completed five scrum sprint cycles, the documentation is available upon request.
+                        <!-- The game is a 2D-platformer with 15 levels where the player can collect coins, adventure through custom maps, and follow a story. -->
                       </p>
                     </div>
                     <div class="project-bottom">
@@ -229,33 +227,33 @@
                   </div>
               </div>
 
-              <!-- Blank project template for future -->
-              <!-- <div class="col-lg-4 single-project-container">
-                  <div class="single-project">
-                    <div class="top-container">
-                      <h5 class="project-title">Cities Near Location</h5>
-                      <hr class="hr-project-top">
-                      <p class="project-type">Java | REST | XML | Android</p>
-                    </div>
-                    <div class="project-body">
-                      <p class="project-description">
-                        I made this website you are looking at. 
-                        Still optimizing and updating this website in my free time.
-                        A lot of Bootstrap is used for a responsive result, which I cannot take
-                        credit for, but HTML, CSS, and JavaScript I wrote.
-                      </p>
-                    </div>
-                    <div class="project-bottom">
-                      <span class="github-link">
-                          <a href="https://github.com/KyleChutjian/CitiesNearLocation" target="_blank"><img src="./images/github.png"></a>
-                      </span>
-                      <span class="youtube-link">
-                          <a href="https://www.youtube.com/watch?v=r1ads52o4rU" target="_blank"><img src="./images/youtube.png"></a>
-                      </span>
-                    </div>
+              <!-- PvZ Coin Collector -->
+              <div class="col-lg-4 single-project-container">
+                <div class="single-project">
+                  <div class="top-container">
+                    <h5 class="project-title">PvZ Coin Collector</h5>
+                    <hr class="hr-project-top">
+                    <p class="project-type">Python | OpenCV</p>
                   </div>
+                  <div class="project-body">
+                    <p class="project-description">
+                      This is a fun script I made for the Plants vs. Zombies video game. 
+                      It uses image detection to find coins, and PyAutoGUI to move and click your mouse. 
+                      The README describes how to use the program, and the YouTube video shows me demonstrating what it looks like.
+                    </p>
+                  </div>
+                  <div class="project-bottom">
+                    <span class="github-link">
+                        <a href="https://github.com/KyleChutjian/PvZ-Coin-Collector" target="_blank"><img src="./images/github.png"></a>
+                    </span>
+                    <span class="youtube-link">
+                        <a href="https://www.youtube.com/watch?v=eMf799NCgws&ab_channel=Kyle" target="_blank"><img src="./images/youtube.png"></a>
+                    </span>
+                  </div>
+                </div>
               </div>
-            </div> -->
+            </div>
+
             <hr>
             <div id="contact-container">
               <h1 class="contact-header">Contact Information</h1>
@@ -269,7 +267,7 @@
                     <a href="mailto:kyle.chutjian@gmail.com" target="_blank"><img src="./images/mail.png"></a>
                   </span>
             </div>
-        </div>
+          </div>
     </div>
     <script src="script.js"></script>
 </body>

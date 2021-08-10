@@ -127,11 +127,11 @@ body {
   }
   
 .single-project {
-    transition: box-shadow 0.5s;
     text-decoration: none;
     width: 90%;
     height: 90%;
-    border: 1px solid;
+    /* border: 1px solid; (looks better without border)
+     */
 }
 
 .top-container {
@@ -165,15 +165,13 @@ body {
 }
 
 .project-bottom {
-    vertical-align: bottom;
-    margin: 0;
     background-color: #212529;
-    margin-top: 0;
-    padding-top: 0;
-    min-height: 16%;
+    min-height: 25%;
 }
-/* Contact */
-
+.github-link {
+    vertical-align: middle;
+    line-height: 60px;
+}
 .github-link img {
     width:7%;
     height:100%;
@@ -183,6 +181,7 @@ body {
     height:100%;
 }
 
+/* Contact */
 .contact-container {
     text-align: center;
     align-items: center;
