@@ -200,17 +200,17 @@ body {
 
 .github2-link img {
     width:5%;
-    height:30%;
+    height:auto;
 }
 
 .linkedin-link img {
     width:5%;
-    height:30%;
+    height:auto;
 }
 
 .mail-link img {
     width:5%;
-    height:30%;
+    height:auto;
 }
 
 .contact-items-container {
